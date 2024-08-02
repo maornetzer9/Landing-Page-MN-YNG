@@ -1,0 +1,28 @@
+.about-us-form {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 200px;
+}
+
+.about-us-inner-form {
+    width: 35%;
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .about-us-inner-form {
+        width: 95%;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-us-inner-form {
+        width: 95%;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-us-inner-form {
+        width: 85%;
+    }
+}
