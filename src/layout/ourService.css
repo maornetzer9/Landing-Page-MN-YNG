@@ -13,10 +13,10 @@
 }
 
 .service_form > h3 {
-    background: linear-gradient(to left, #eeeeee -7%, #9100b5 30%, #ff6e3d 40%, #eeeeee 70%);
+    /* background: linear-gradient(to left, #eeeeee -7%, #9100b5 30%, #ff6e3d 40%, #eeeeee 70%); */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .service_form > span {
@@ -45,9 +45,11 @@
 
 @media (max-width: 480px) {
     .service_form {
-        width: 95%;
+        text-align: center;
+        width: 65%;
         height: auto;
-        padding: 15px;
+        padding: 20px 20px;
+        margin-bottom: 50px;
     }
     
     .service_form > h3 {

@@ -22,7 +22,8 @@
 }
 
 .header_content_form > h1 {
-    background: linear-gradient(to right, #eeeeee -7%, #9100b5 30%, #ff6e3d 40%, #eeeeee 70%);
+    /* background: linear-gradient(to right, #eeeeee -7%, #9100b5 30%, #ff6e3d 40%, #eeeeee 70%); */
+    background: linear-gradient(to right, white 9%, teal, magenta, white 85%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;

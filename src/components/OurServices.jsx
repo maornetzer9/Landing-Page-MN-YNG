@@ -14,7 +14,7 @@ export default function OurServices() {
   return (
     <Reveal>
         <motion.div className='services_form'>
-            {services.map((item, index) => <OurService key={index} item={item}/>)}
+            {services.map((item, index) => <OurService key={index} item={item} index={index}/>)}
         </motion.div>
     </Reveal>
   )

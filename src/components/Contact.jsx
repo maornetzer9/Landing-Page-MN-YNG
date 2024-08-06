@@ -11,14 +11,22 @@ const formVariants = {
 export default function Contact() {
   return (
     <Reveal direction="up">
-      <motion.div className="contact_form" initial="hidden" animate="visible" variants={formVariants}>
-        <h1 style={{textAlign:'center'}}> Contact Us </h1>
-        <label> Name: </label>
-        <input type="text" />
-        <label> Email: </label>
-        <input type="email" />
-        <label> Message: </label>
-        <textarea />
+      <motion.div 
+        initial="hidden" 
+        animate="visible" 
+        className="contact_form" 
+        variants={formVariants}
+      >
+        <h1 style={{textAlign:'center'}}> יצירת קשר </h1>
+
+        <label> שם: </label>
+        <input type="text" placeholder='שם השולח'/>
+        
+        <label> אימייל: </label>
+        <input type="email" placeholder='אימייל לחזרה'/>
+
+        <label> הודעה: </label>
+        <input type='text'  placeholder='הודעה'/>
 
         <button type="submit">Send</button>
       </motion.div>
